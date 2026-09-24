@@ -13,20 +13,24 @@ This site is meant to give visitors a quick, clear picture of who I am:
 
 ## Status
 
-This repository is just getting started. The plan is to keep the site simple
-and easy to maintain, adding content and structure incrementally.
+A single-page static site (plain HTML/CSS/JS, no build step) with About,
+Work, and Contact sections.
 
 ## Roadmap
 
-- [ ] Pick a tech stack (e.g., static site generator or a lightweight framework)
-- [ ] Set up project scaffolding and local dev workflow
-- [ ] Build the About / Tatari / Contact sections
-- [ ] Deploy the site
+- [x] Build the About / Tatari / Contact sections
+- [ ] Deploy the site (e.g., GitHub Pages)
 - [ ] Iterate on design and content
 
 ## Development
 
-Setup and run instructions will be added here once the tech stack is chosen.
+No build step required. To preview locally:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000 in your browser.
 
 ## License
 
